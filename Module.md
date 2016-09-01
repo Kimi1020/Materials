@@ -33,20 +33,20 @@ import {stat, exists, readFile} from 'fs'
 
 ###严格模式
 严格模式主要有以下限制
-	- 变量必须声明后再使用
-	- 函数的参数不能有同名属性，否则报错
-	- 不能使用with语句
-	- 不能对只读属性赋值，否则报错
-	- 不能使用前缀0表示八进制数，否则报错
-	- 不能删除不可删除的属性
-	- 不能删除变量 `delete prop`, 只能删除delete global[prop]
-	- eval不能再它的外层作用域引入变量
-	- eval和arguments不能重新赋值
-	- arguments不能自动反应函数参数的变化
-	- 不能使用arguments.caller 和arguments.callee
-	- 禁止this指向全局对象
-	- 不能使用fn.caller 和fn.arguments获取函数调用的堆栈
-	- 增加了保留字（比如protected， static 和interface）
+	1.变量必须声明后再使用
+	2.函数的参数不能有同名属性，否则报错
+	3.不能使用with语句
+	4.不能对只读属性赋值，否则报错
+	5.不能使用前缀0表示八进制数，否则报错
+	6.不能删除不可删除的属性
+	7.不能删除变量 `delete prop`, 只能删除delete global[prop]
+	8.eval不能再它的外层作用域引入变量
+	9.eval和arguments不能重新赋值
+	10.arguments不能自动反应函数参数的变化
+	11.不能使用arguments.caller 和arguments.callee
+	12.禁止this指向全局对象
+	13.不能使用fn.caller 和fn.arguments获取函数调用的堆栈
+	14.增加了保留字（比如protected， static 和interface）
 
 
 
